@@ -6,7 +6,8 @@ function Counter(props) {
   const [count, setCount] = useState(0); // Declares a piece of state and
   //   stateValue, stateSetter            // its initial value
   const [plusClicked, setPlusClicked] = useState(false);
-  const [messages, setData] = useState(["hello", "class", "51"]);
+
+
 
 
   const incrementScore = () => {
@@ -18,7 +19,6 @@ function Counter(props) {
     setCount(count - 1)
   }
 
-  console.log("re-render?")
 
   return (
   <div>
@@ -33,7 +33,6 @@ function Counter(props) {
       </button>
       <button onClick={decrementScore}>-</button>
     </div>
-    <span>{messages[count]}</span>
   </div>
   );
 }

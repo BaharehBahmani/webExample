@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
-import Counter from './components/Counter'
+import PostPage from './components/PostPage';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Title title="Hello class 51!" subtitle={"Today we learn about useState and useEffect"} />
-        <Counter />
+        <PostPage />
       </header>
     </div>
   );

@@ -7,9 +7,6 @@ function Counter(props) {
   //   stateValue, stateSetter            // its initial value
   const [plusClicked, setPlusClicked] = useState(false);
 
-
-
-
   const incrementScore = () => {
     setCount(count + 1)
     setPlusClicked(true)
